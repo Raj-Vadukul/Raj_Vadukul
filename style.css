@@ -19,6 +19,33 @@ html {
     }
 }
 
+/* ------------------ Loading Page CSS -------------------------------------------- */
+#Loading-Page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    z-index: 9999;
+    background: rgba(19, 23, 99, 0.906);
+
+}
+
+.loder {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loder img {
+    height: 35%;
+    width: 25%;
+}
+
+/* ------------------------ Main Page Content ------------------------------------------- */
+
 .container {
     height: 100vh;
     width: 100%;
@@ -511,9 +538,11 @@ nav a img {
     .portfolio .content #About {
         height: 100%;
     }
+
     #About .about {
         height: 75%;
     }
+
     #About .skill {
         height: 23%;
     }
@@ -563,6 +592,7 @@ nav a img {
     #About .about ul li {
         font-size: 1.5rem;
     }
+
     #About .skill {
         height: 25%;
     }
@@ -586,6 +616,10 @@ nav a img {
 
     #Contact .Heading {
         font-size: 2.5rem;
+    }
+    .loder img {
+        height: 30%;
+        width: 35%;
     }
 }
 
@@ -751,6 +785,10 @@ nav a img {
         top: -0.6rem;
         font-size: x-small;
     }
+    .loder img {
+        height: 20%;
+        width: 40%;
+    }
 }
 
 /* ----------------Media Query Specially For Porjects---------------- */
@@ -882,7 +920,7 @@ nav a img {
     }
 
     #About .about {
-        height:91%;
+        height: 91%;
     }
 
     #About .about h2 {
@@ -959,5 +997,9 @@ nav a img {
     .input-box input:valid~label {
         top: -0.6rem;
         font-size: x-small;
+    }
+    .loder img {
+        height: 15%;
+        width: 40%;
     }
 }
